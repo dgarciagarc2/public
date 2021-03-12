@@ -1,0 +1,22 @@
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://C:/Users/dgarciagarc2/.m2/repository/")
+             pom.artifactId == 'actividadesEspecialesService-api'
+        }
+    }
+}
+
+dependencies {
+	compileOnly group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.1.0"
+	compileOnly group: "com.liferay", name: "com.liferay.osgi.util", version: "3.0.0"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "3.0.0"
+	compileOnly group: "org.osgi", name: "org.osgi.core", version: "6.0.0"
+}
+
+
+
+group = "com.eulen.ot.actividadesespeciales"
