@@ -1,0 +1,5 @@
+Bundle-Name: actividadesEspeciales
+Bundle-SymbolicName: com.eulen.actividades.portlet
+Bundle-Version: 1.0.0
+
+-noee:true
